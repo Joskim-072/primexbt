@@ -1,0 +1,232 @@
+<html><head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PrimeXBT - Contact Us and About Us</title>
+<style>
+    :root {
+        --primary-color: #007bff;
+        --secondary-color: #6c757d;
+        --background-color: #f8f9fa;
+        --text-color: #333;
+        --accent-color: #28a745;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: var(--background-color);
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    header {
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        color: #ffffff;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: var(--accent-color);
+    }
+
+    .section {
+        padding: 4rem 0;
+        background: #ffffff;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+        color: var(--primary-color);
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: var(--primary-color);
+        color: #ffffff;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .contact-info p {
+        margin-bottom: 0.5rem;
+    }
+
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .about-text {
+        flex: 1;
+        min-width: 300px;
+        padding-right: 2rem;
+    }
+
+    .about-image {
+        flex: 1;
+        min-width: 300px;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+        .section {
+            padding: 2rem 0;
+        }
+
+        .about-content {
+            flex-direction: column;
+        }
+
+        .about-text, .about-image {
+            width: 100%;
+            padding-right: 0;
+            margin-bottom: 2rem;
+        }
+    }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features and Trading</a></li>
+                    <li><a href="Blogs.html">Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello, I'm Josphat Kimani Njane, a dedicated PrimeXBT affiliate and a passionate advocate for smart and secure crypto trading. I've developed a deep understanding of the financial markets and the transformative potential of cryptocurrencies. <br>
+
+                        My journey into crypto trading began out of a desire to explore new financial opportunities and to help others navigate the complex world of digital assets. Through meticulous research and hands-on trading experience, I discovered PrimeXBT, a platform that stood out for its user-friendly interface, advanced trading tools, and exceptional security features. <br>
+                        
+                        Why PrimeXBT? Unlike many other platforms, PrimeXBT offers a seamless trading experience with access to a wide range of markets, including cryptocurrencies, forex, commodities, and more. Their innovative approach to leverage trading allows both beginners and seasoned traders to maximize their potential returns while managing risks effectively. <br>
+                        
+                        I believe in the power of education and community, which is why I am committed to helping others understand the benefits of trading with PrimeXBT. Whether you're new to trading or looking to refine your strategies, I'm here to guide you every step of the way. <br>
+                        
+                        Let’s embark on this exciting journey together and unlock the full potential of crypto trading with PrimeXBT. Sign up today and start your path to financial growth and independence!
+                    </p>
+                    
+                </div>
+                <div class="about-image">
+                    <img src="Images/pic.jpeg" width="500" height="300">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <form  action="https://formspree.io/f/mdknglqy" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required=""></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // You can add any necessary JavaScript here
+    </script>
+
+</body></html>

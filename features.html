@@ -1,0 +1,321 @@
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Features and Trading - PrimeXBT</title>
+<style>
+    :root {
+        --primary-color: #007bff;
+        --secondary-color: #6c757d;
+        --background-color: #f8f9fa;
+        --text-color: #333;
+        --accent-color: #28a745;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    header {
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        color: #ffffff;
+        padding: 1rem 0;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: var(--accent-color);
+    }
+
+    .section {
+        padding: 4rem 0;
+        margin-top: 60px;
+    }
+
+    h1, h2, h3 {
+        color: var(--primary-color);
+    }
+
+    .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .feature-card {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        padding: 1.5rem;
+        transition: transform 0.3s ease;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+
+    .trading-options {
+        margin-top: 3rem;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+    }
+
+    th, td {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    th {
+        background-color: var(--primary-color);
+        color: #ffffff;
+    }
+
+    .cta-button {
+        display: inline-block;
+        padding: 0.8rem 2rem;
+        background-color: var(--accent-color);
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-top: 2rem;
+    }
+
+    .cta-button:hover {
+        background-color: #218838;
+    }
+
+    .subsection {
+        margin-top: 3rem;
+        background-color: #ffffff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .faq-section {
+        margin-top: 3rem;
+    }
+
+    .faq-item {
+        margin-bottom: 1rem;
+    }
+
+    .faq-question {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .faq-answer {
+        display: none;
+        padding: 1rem;
+        background-color: #f1f3f5;
+        border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+        .feature-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Blogs.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="features-and-trading" class="section">
+            <h1>Features and Trading Options</h1>
+            <p>Explore the powerful features and diverse trading options available on PrimeXBT, designed to enhance your trading experience and maximize your potential profits.</p>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3>Advanced Charting</h3>
+                    <p>Access professional-grade charts with multiple timeframes and over 50 technical indicators. Our platform integrates TradingView charts, allowing you to conduct in-depth technical analysis and make informed trading decisions.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt feature-icon"></i>
+                    <h3>High Leverage</h3>
+                    <p>Trade with leverage up to 100x on cryptocurrencies and up to 1000x on forex pairs. This feature allows you to amplify your potential profits, but remember to manage your risk carefully.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-lock feature-icon"></i>
+                    <h3>Security</h3>
+                    <p>Your funds are protected by multi-signature technology and cold storage. We employ industry-leading security measures, including two-factor authentication (2FA) and SSL encryption, to ensure the safety of your assets and personal information.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt feature-icon"></i>
+                    <h3>Mobile Trading</h3>
+                    <p>Trade on-the-go with our powerful mobile app for iOS and Android devices. Experience full functionality, real-time market data, and seamless account management from anywhere in the world.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users feature-icon"></i>
+                    <h3>Copy Trading</h3>
+                    <p>Follow and automatically copy the trades of successful traders. Our Covesting module allows you to learn from experienced traders and potentially increase your profits.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-robot feature-icon"></i>
+                    <h3>Automated Trading</h3>
+                    <p>Implement your trading strategies with our API. Create and deploy trading bots to execute trades 24/7 based on your predefined criteria.</p>
+                </div>
+            </div>
+
+            <div class="trading-options">
+                <h2>Available Trading Options</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Asset Class</th>
+                            <th>Examples</th>
+                            <th>Max Leverage</th>
+                            <th>Minimum Trade Size</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cryptocurrencies</td>
+                            <td>BTC, ETH, XRP, LTC, ADA, DOT</td>
+                            <td>Up to 100x</td>
+                            <td>0.001 BTC</td>
+                        </tr>
+                        <tr>
+                            <td>Forex</td>
+                            <td>EUR/USD, GBP/JPY, AUD/CAD, USD/CHF</td>
+                            <td>Up to 1000x</td>
+                            <td>0.01 lot</td>
+                        </tr>
+                        <tr>
+                            <td>Commodities</td>
+                            <td>Gold, Silver, Crude Oil, Natural Gas, Copper</td>
+                            <td>Up to 500x</td>
+                            <td>1 contract</td>
+                        </tr>
+                        <tr>
+                            <td>Stock Indices</td>
+                            <td>S&amp;P 500, NASDAQ, FTSE 100, DAX 30</td>
+                            <td>Up to 200x</td>
+                            <td>1 contract</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subsection">
+                <h2>How To Trade profitably</h2>
+                <p>A tutorial on trading profitable on PrimeXBT</p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/zuc8vFcsI2Q?si=KBoMKfglyBHnjo63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h2>Risk Management Tools</h2>
+                <p>PrimeXBT offers a range of risk management tools to help you protect your investments:</p>
+                <ul>
+                    <li><strong>Stop-Loss Orders:</strong> Automatically close your position if the market moves against you by a specified amount.</li>
+                    <li><strong>Take-Profit Orders:</strong> Lock in profits by automatically closing your position when it reaches a certain level of profitability.</li>
+                    <li><strong>Trailing Stop Orders:</strong> Dynamically adjust your stop-loss as the market moves in your favor.</li>
+                    <li><strong>Guaranteed Stop-Loss Orders:</strong> Ensure your position is closed at the exact price you specify, even in volatile market conditions (additional fee applies).</li>
+                </ul>
+            </div>
+
+            <div class="faq-section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <div class="faq-question">What are the minimum deposit requirements?</div>
+                    <div class="faq-answer">The minimum deposit on PrimeXBT is 0.001 BTC or its equivalent in other supported cryptocurrencies.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How long does it take to withdraw funds?</div>
+                    <div class="faq-answer">Withdrawal requests are typically processed within 24 hours. The actual time for funds to reach your wallet depends on the blockchain network's congestion.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Is PrimeXBT available in my country?</div>
+                    <div class="faq-answer">PrimeXBT is available in most countries worldwide. However, due to regulatory restrictions, it is not available in certain jurisdictions, including the United States. Please check their <a href="https://review-primexbt.com/countries/">Terms of Service</a> for the most up-to-date information.</div>
+                </div>
+            </div>
+
+            <a href="https://go.primexbt.direct/visit/?bta=38618&brand=primexbt" class="cta-button">Start Trading Now</a>
+        </section>
+    </div>
+
+    <script>
+        // FAQ toggle functionality
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+
+</body></html>

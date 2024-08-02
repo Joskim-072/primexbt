@@ -1,0 +1,155 @@
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PrimeXBT Blogs</title>
+<style>
+    :root {
+        --primary-color: #007bff;
+        --secondary-color: #6c757d;
+        --background-color: #f8f9fa;
+        --text-color: #333;
+        --accent-color: #28a745;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    header {
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        color: #ffffff;
+        padding: 1rem 0;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: var(--accent-color);
+    }
+    .section {
+        padding: 4rem 0;
+        margin-top: 60px;
+    }
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px;
+    }
+    .container h1{
+        margin-top: 0%;
+    }
+
+    h1, h2 {
+        color: var(--primary-color);
+    }
+
+    .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .blog-card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .blog-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .blog-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .blog-content {
+        padding: 20px;
+    }
+
+    .blog-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .blog-excerpt {
+        font-size: 0.9rem;
+        color: var(--secondary-color);
+    }
+
+    .read-more {
+        display: inline-block;
+        margin-top: 10px;
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">features and trading</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>PrimeXBT Blog</h1>
+        <p>Stay up-to-date with the latest news, trading strategies, and market analysis.</p>
+
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="https://primexbt.com/media/2022/03/forex-min.jpg" alt="Crypto Market Analysis" class="blog-image">
+                <div class="blog-content">
+                    <h2 class="blog-title">How to Trade on PrimeXBT</h2>
+                    <p class="blog-excerpt">A Beginner’s Guide</p>
+                    <a href="https://medium.com/@kimnjane07/how-to-trade-on-primexbt-a-beginners-guide-a5df25c32f5b" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <img src="https://images.financemagnates.com/images/primexbt_id_5e93c00e-1b38-496b-b0ad-17763961685e_size900.jpg" alt="Forex Trading Strategies" class="blog-image">
+                <div class="blog-content">
+                    <h2 class="blog-title">Is PrimeXBT a Good Broker?</h2>
+                    <p class="blog-excerpt">Evaluating the PrimeXBT Platform.</p>
+                    <a href="https://medium.com/@kimnjane07/is-primexbt-a-good-broker-evaluating-the-platform-f76f9a82b8cf" class="read-more">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body></html>
